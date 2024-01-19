@@ -1,0 +1,56 @@
+/* Reset some default styles for margin and padding */
+body, h1, ul, p {
+  margin: 0;
+  font-size: 5;
+  padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+  background-color: #f0f0f0;
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Style the navigation menu */
+nav ul {
+  list-style-type: none;
+  background-color: #444;
+  padding: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Style main content sections */
+main {
+  margin: 20px;
+}
+
+section {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
